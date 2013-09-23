@@ -32,7 +32,6 @@ c:\users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\obj\Debug\Tha
 c:\users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\obj\Debug\ThaiBus.dll
 c:\users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\obj\Debug\ThaiBus.xml
 c:\users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\obj\Debug\ThaiBus.pdb
-C:\Users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\bin\AjaxControlToolkit.dll
 C:\Users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\bin\Microsoft.WindowsAzure.Storage.dll
 C:\Users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\bin\HtmlAgilityPack.dll
 C:\Users\016\documents\visual studio 2012\Projects\ThaiBus\ThaiBus\bin\AjaxMin.dll

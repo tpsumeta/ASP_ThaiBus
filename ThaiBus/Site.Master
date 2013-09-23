@@ -15,6 +15,11 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 229px;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -44,7 +49,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">your logo here</a></p>
+                    <a runat="server" href="~/"><img alt="" src="Images/logo.png" class="auto-style1" /></a></p>
             </div>
             <div class="float-right">
                 <section id="login">
@@ -70,7 +75,8 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/Bus.aspx">Bus</a></li>
                         <li><a runat="server" href="~/Point.aspx">Point</a></li>
-                        <li><a id="A1" runat="server" href="~/Line.aspx">Line</a></li>
+                        <li><a  runat="server" href="~/Line.aspx">Line</a></li>
+                         <li><a  runat="server" href="About.aspx">About</a></li>
      
                     </ul>
                 </nav>

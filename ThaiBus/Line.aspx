@@ -42,6 +42,51 @@
 
         </Columns>
     </asp:GridView>
+    <br />
+    <asp:FormView ID="FormView6" runat="server" DataKeyNames="id_bp" DataSourceID="SqlDataSource6">
+        <EditItemTemplate>
+            id_bp:
+            <asp:Label ID="id_bpLabel1" runat="server" Text='<%# Eval("id_bp") %>' />
+            <br />
+            id_bus:
+            <asp:TextBox ID="id_busTextBox" runat="server" Text='<%# Bind("id_bus") %>' />
+            <br />
+            id_point:
+            <asp:TextBox ID="id_pointTextBox" runat="server" Text='<%# Bind("id_point") %>' />
+            <br />
+            <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
+            &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+        </EditItemTemplate>
+        <InsertItemTemplate>
+            id_bus:
+            <asp:TextBox ID="id_busTextBox" runat="server" Text='<%# Bind("id_bus") %>' />
+            <br />
+            id_point:
+            <asp:TextBox ID="id_pointTextBox" runat="server" Text='<%# Bind("id_point") %>' />
+            <br />
+            <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
+            &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+        </InsertItemTemplate>
+        <ItemTemplate>
+         
+            &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
+        </ItemTemplate>
+    </asp:FormView>
+    <asp:SqlDataSource ID="SqlDataSource6" runat="server" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\data.accdb" DeleteCommand="DELETE FROM [tb_bp] WHERE [id_bp] = ?" InsertCommand="INSERT INTO [tb_bp] ([id_bp], [id_bus], [id_point]) VALUES (?, ?, ?)" ProviderName="System.Data.OleDb" SelectCommand="SELECT * FROM [tb_bp]" UpdateCommand="UPDATE [tb_bp] SET [id_bus] = ?, [id_point] = ? WHERE [id_bp] = ?">
+        <DeleteParameters>
+            <asp:Parameter Name="id_bp" Type="Int32" />
+        </DeleteParameters>
+        <InsertParameters>
+            <asp:Parameter Name="id_bp" Type="Int32" />
+            <asp:Parameter Name="id_bus" Type="Int32" />
+            <asp:Parameter Name="id_point" Type="String" />
+        </InsertParameters>
+        <UpdateParameters>
+            <asp:Parameter Name="id_bus" Type="Int32" />
+            <asp:Parameter Name="id_point" Type="String" />
+            <asp:Parameter Name="id_bp" Type="Int32" />
+        </UpdateParameters>
+    </asp:SqlDataSource>
     <asp:GridView ID="GridView5" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id_bus" DataSourceID="AccessDataSource2" EmptyDataText="There are no data records to display.">
         <Columns>
             <asp:BoundField DataField="id_bus" HeaderText="id_bus" ReadOnly="True" SortExpression="id_bus" />

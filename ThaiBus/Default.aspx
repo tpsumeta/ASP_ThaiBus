@@ -19,14 +19,11 @@
                 <asp:TextBox ID="TextBox1" runat="server" class="tb" ToolTip="เลือกจุดเริ่มต้น"></asp:TextBox>
 
             
-              <asp:TextBox ID="TextBox2" runat="server" ToolTip="จุดที่ต้องการไป"></asp:TextBox>
+              ไป<asp:TextBox ID="TextBox2" runat="server" ToolTip="จุดที่ต้องการไป"></asp:TextBox>
 
                 <asp:Button ID="Button1" runat="server" Text="ค้นหา" />
 
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\data.accdb"
-                    ProviderName="System.Data.OleDb" SelectCommand="SELECT * FROM [tb_point]"></asp:SqlDataSource>
-
-           
+        
 
             <%--                <% 
                     If Request.QueryString("start") <> "" Then

@@ -14,14 +14,6 @@ HeadContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ThaiBus.SiteMaster.A1">
-	<summary>
-A1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:ThaiBus.SiteMaster.FeaturedContent">
 	<summary>
 FeaturedContent control.
@@ -151,6 +143,22 @@ AccessDataSource1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ThaiBus.Contact.FormView1">
+	<summary>
+FormView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ThaiBus.Contact.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ThaiBus.Login.RegisterHyperLink">
 	<summary>
 RegisterHyperLink control.
@@ -162,38 +170,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ThaiBus.Login.OpenAuthLogin">
 	<summary>
 OpenAuthLogin control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ThaiBus.Contact.GridView2">
-	<summary>
-GridView2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ThaiBus.Contact.AccessDataSource2">
-	<summary>
-AccessDataSource2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ThaiBus.Contact.FormView2">
-	<summary>
-FormView2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ThaiBus.Contact.SqlDataSource2">
-	<summary>
-SqlDataSource2 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -231,14 +207,6 @@ Button1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ThaiBus._Default.SqlDataSource1">
-	<summary>
-SqlDataSource1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:ThaiBus._Default.Label3">
 	<summary>
 Label3 control.
@@ -266,22 +234,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ThaiBus._Default.AccessDataSource1">
 	<summary>
 AccessDataSource1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ThaiBus.Contact.GridView3">
-	<summary>
-GridView3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ThaiBus.Contact.SqlDataSource1">
-	<summary>
-SqlDataSource1 control.
 </summary>
 	<remarks>
 Auto-generated field.
